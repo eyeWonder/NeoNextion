@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONPICTURE
 #define __NEONEXTION_NEXTIONPICTURE
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionTouchable.h"
 
 /*!
@@ -18,6 +18,8 @@ public:
 
   uint16_t getPictureID();
   bool setPictureID(uint16_t id);
+  bool show();
+  bool hide();
 };
 
 #endif
