@@ -4,6 +4,7 @@
 # Class
 #######################################
 
+NeoNextion	KEYWORD1
 Nextion	KEYWORD1
 NextionValue	KEYWORD1
 NextionFontAlignment	KEYWORD1
@@ -84,11 +85,14 @@ detachPressEvent	KEYWORD2
 attachReleaseEvent	KEYWORD2
 detachReleaseEvent	KEYWORD2
 
-# NextionCrop and NextionPicture
+# NextionCrop  and NextionPicture
 getPictureID	KEYWORD2
 setPictureID	KEYWORD2
 
-# NextionPage
+# NextionPicture
+hide	KEYWORD2
+
+# NextionPage and NextionPicture
 show	KEYWORD2
 
 # NextionDualStateButton
