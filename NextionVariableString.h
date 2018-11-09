@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONVARIABLESTRING
 #define __NEONEXTION_NEXTIONVARIABLESTRING
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionWidget.h"
 #include "INextionStringValued.h"
 

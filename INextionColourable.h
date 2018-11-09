@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_INEXTIONCOLOURABLE
 #define __NEONEXTION_INEXTIONCOLOURABLE
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionWidget.h"
 #include "NextionTypes.h"
 

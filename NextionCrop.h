@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONCROP
 #define __NEONEXTION_NEXTIONCROP
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionTouchable.h"
 
 /*!

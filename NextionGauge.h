@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONGAUGE
 #define __NEONEXTION_NEXTIONGAUGE
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionTouchable.h"
 #include "INextionColourable.h"
 #include "INextionNumericalValued.h"

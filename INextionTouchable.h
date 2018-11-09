@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_INEXTIONTOUCHABLE
 #define __NEONEXTION_INEXTIONTOUCHABLE
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionWidget.h"
 #include "INextionCallback.h"
 #include "NextionCallbackFunctionHandler.h"

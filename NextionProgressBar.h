@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONPROGRESSBAR
 #define __NEONEXTION_NEXTIONPROGRESSBAR
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionTouchable.h"
 #include "INextionColourable.h"
 #include "INextionNumericalValued.h"

@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONRADIOBUTTON
 #define __NEONEXTION_NEXTIONRADIOBUTTON
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionTouchable.h"
 #include "INextionColourable.h"
 #include "INextionBooleanValued.h"

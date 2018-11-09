@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONHOTSPOT
 #define __NEONEXTION_NEXTIONHOTSPOT
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionWidget.h"
 #include "INextionTouchable.h"
 

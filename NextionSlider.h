@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONSLIDER
 #define __NEONEXTION_NEXTIONSLIDER
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionTouchable.h"
 #include "INextionColourable.h"
 #include "INextionNumericalValued.h"

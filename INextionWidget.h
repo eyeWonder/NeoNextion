@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_INEXTIONWIDGET
 #define __NEONEXTION_INEXTIONWIDGET
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 
 /*!
  * \class INextionWidget

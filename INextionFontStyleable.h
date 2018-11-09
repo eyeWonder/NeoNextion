@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_INEXTIONFONTSTYLEABLE
 #define __NEONEXTION_INEXTIONFONTSTYLEABLE
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionWidget.h"
 #include "NextionTypes.h"
 

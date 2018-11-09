@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_INEXTIONNUMERICALVALUED
 #define __NEONEXTION_INEXTIONNUMERICALVALUED
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionWidget.h"
 #include "NextionTypes.h"
 

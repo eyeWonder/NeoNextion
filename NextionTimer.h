@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONTIMER
 #define __NEONEXTION_NEXTIONTIMER
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionTouchable.h"
 
 /*!

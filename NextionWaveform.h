@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONWAVEFORM
 #define __NEONEXTION_NEXTIONWAVEFORM
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionTouchable.h"
 #include "INextionColourable.h"
 

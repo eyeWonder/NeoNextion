@@ -3,7 +3,7 @@
 #ifndef __NEONEXTION_NEXTIONBUTTON
 #define __NEONEXTION_NEXTIONBUTTON
 
-#include "Nextion.h"
+#include "NeoNextion.h"
 #include "INextionTouchable.h"
 #include "INextionColourable.h"
 #include "INextionStringValued.h"
