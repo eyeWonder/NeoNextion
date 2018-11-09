@@ -1,4 +1,4 @@
-#include <Nextion.h>
+#include <NeoNextion.h>
 #include <INextionColourable.h>
 
 #define NEXTION_PORT Serial1

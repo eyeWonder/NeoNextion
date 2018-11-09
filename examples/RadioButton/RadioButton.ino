@@ -1,4 +1,4 @@
-#include <Nextion.h>
+#include <NeoNextion.h>
 #include <NextionPage.h>
 #include <NextionRadioButton.h>
 #include <SoftwareSerial.h>
