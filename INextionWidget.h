@@ -22,13 +22,16 @@ public:
   uint8_t getComponentID();
 
   bool setNumberProperty(char *propertyName, uint32_t value);
+  bool setPropertyCommand(char *command, uint32_t value);
   uint32_t getNumberProperty(char *propertyName);
   bool setStringProperty(char *propertyName, char *value);
   size_t getStringProperty(char *propertyName, char *value, size_t len);
+  bool show();
+  bool hide();
 
 protected:
   bool sendCommand(char *commandStr, bool checkComplete = true);
-
+  
 protected:
   Nextion &m_nextion;    //!< Reference to the Nextion driver
   uint8_t m_pageID;      //!< ID of page this widget is on

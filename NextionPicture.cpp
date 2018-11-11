@@ -34,10 +34,10 @@ bool NextionPicture::setPictureID(uint16_t id)
 
 bool NextionPicture::show()
 {
-  return setNumberProperty("vis", 1);
+  return setPropertyCommand("vis", 1);
 }
 
 bool NextionPicture::hide()
 {
-  return setNumberProperty("vis", 0);
+  return setPropertyCommand("vis", 0);
 }

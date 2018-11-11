@@ -50,6 +50,14 @@ bool INextionWidget::setNumberProperty(char *propertyName, uint32_t value)
   return sendCommand(commandBuffer);
 }
 
+bool INextionWidget::setPropertyCommand(char *command, uint32_t value)
+{
+  size_t commandLen = strlen(command) + strlen(m_name) + 8;//strlen((char*)value) +1;
+  char commandBuffer[commandLen];
+  snprintf(commandBuffer, commandLen, "%s %s,%ld", command , m_name, value);
+  return sendCommand(commandBuffer, false);
+}
+
 /*!
  * \brief Gets the value of a numerical property of this widget.
  * \param propertyName Name of the property
@@ -108,3 +116,14 @@ bool INextionWidget::sendCommand(char *commandStr, bool checkComplete)
   else
     return true;
 }
+
+bool INextionWidget::show()
+{
+  return setPropertyCommand("vis", 1);
+}
+
+bool INextionWidget::hide()
+{
+  return setPropertyCommand("vis", 0);
+}
+
